@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000f3d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.site-banner {
+  width: 100%;
+  position: relative;
+  background-color: #000a26;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 15, 61, 0.35);
+  pointer-events: none;
+}
+
+.banner-heading {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3.8rem);
+  letter-spacing: 2px;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.85);
+}
+
+.banner-subheading {
+  font-size: clamp(0.85rem, 1.8vw, 1.3rem);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
+}
+
+.fifa-gold-card {
+  background: linear-gradient(175deg, #e4be68 0%, #caa049 28%, #ebd082 48%, #ba892e 78%, #936717 100%) !important;
+  border: 2px solid #edd388 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  color: #1e1302 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.fifa-card-rating-pos {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.fifa-rating {
+  font-family: 'Teko', sans-serif;
+  font-size: 2.4rem;
+  line-height: 0.85;
+  font-weight: 700;
+  color: #1a0f01;
+}
+
+.fifa-pos {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #3b2808;
+  text-transform: uppercase;
+}
+
+.fifa-card-flag-jersey {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  z-index: 2;
+}
+
+.fifa-flag {
+  font-size: 1.4rem;
+}
+
+.fifa-jersey {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #2b1d06;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(140, 100, 20, 0.3);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+.fifa-img-container {
+  height: 230px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.fifa-player-img {
+  max-height: 220px;
+  max-width: 90%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.35));
+}
+
+.fifa-card-body {
+  background: rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(140, 100, 20, 0.25);
+  color: #1e1302;
+}
+
+.fifa-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1a0f01;
+}
+
+.fifa-divider {
+  border-color: rgba(60, 40, 10, 0.3);
+  opacity: 1;
+  margin: 6px 0;
+}
+
+.fifa-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  gap: 2px;
+}
+
+.fifa-stat-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifa-stat-num {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.35rem;
+  line-height: 0.95;
+  font-weight: 700;
+  color: #1a0f01;
+}
+
+.fifa-stat-lbl {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #4a340b;
+  letter-spacing: 0.5px;
+}
+
+.fifa-club-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #2a1b05;
+}
+
+.fifa-props-subtext {
+  font-size: 0.8rem;
+  color: #4a340b;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.match-card {
+  background-color: #02144d !important;
+  border: 1px solid #1a3b8b !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #000c30 !important;
+  border-top: 1px solid #002366;
+  margin-top: 40px;
+  padding: 35px 0 25px 0;
+}
